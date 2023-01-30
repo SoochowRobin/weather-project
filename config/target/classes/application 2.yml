@@ -1,0 +1,17 @@
+server:
+  port: 9556
+
+spring:
+  application:
+    name: config-service
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SoochowRobin/weather-config-server.git
+          username: SoochowRobin
+          password: Robin52Github!
+          default-label: master
+          search-path: configservice
+

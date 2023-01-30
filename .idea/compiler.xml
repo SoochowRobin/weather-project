@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="search" />
+        <module name="provider" />
+        <module name="discovery" />
+        <module name="university" />
+        <module name="details" />
+        <module name="config" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="8" />
+      <module name="config" target="1.8" />
+      <module name="details" target="8" />
+      <module name="discovery" target="8" />
+      <module name="gateway" target="8" />
+      <module name="provider" target="8" />
+      <module name="search" target="8" />
+      <module name="university" target="8" />
+      <module name="weather" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="details" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="search" options="-parameters" />
+      <module name="university" options="-parameters" />
+    </option>
+  </component>
+</project>

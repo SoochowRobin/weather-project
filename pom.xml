@@ -8,12 +8,16 @@
         <version>2.1.7.RELEASE</version>
     </parent>
 
+<!--    This is a multi-module project and this is module part-->
     <modules>
         <module>common</module>
         <module>details</module>
         <module>discovery</module>
         <module>gateway</module>
         <module>search</module>
+        <module>provider</module>
+        <module>config</module>
+        <module>university</module>
     </modules>
 
     <groupId>com.example</groupId>
@@ -75,6 +79,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

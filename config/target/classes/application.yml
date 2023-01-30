@@ -1,0 +1,16 @@
+server:
+  port: 9556
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: '{cipher}AQDnncWW9YZD8V9J/GBM/OsfxRdeKNbcRjptt8jhft7HT/e3dHYUVRm2AightElo7qaaEVBV1eAZyO8jPQj8GgYYMWbfeHciOoZWFnMstb/RR2RccfaPbNVRBov8FiFAEG5pC0zBVfGC3EGLrj2SkxPlWmNXL5zKPfFzByvXl4rLRT0O2hdDNMlB5bGbgF5+VOMNoMJQyWbqKwOFPWdzV1Y6+jsJhHz7advBbh+BeeqQBNSFGJD18/mIDky70Bhfxy9iwckTAvUCMIO2tEZsi4mx1iO9MVsf+pXsXzbRJH3msNjX45T+rvyac1DO6MTPrPS2uT3HiakEXZjBiWnXTftHqfrwg7aw4BsOVYmcTMyYQ/nlaCf9JaPtzRWMK743wHeELNlv16ZQS6ZxcGWpvv5clP2HwjV81f/FpjVpoIFzA3twh0R1/R/Q1KDG7uqFrxA='
+          username: '{cipher}AQBOA45NtYbLklSIYU1kWnN9yblYegXkbu+B/eOwWEItfiZ+z6xhrGqHrZ89W7bkS7vcZVBQFRe4/khLzrK/KS13Y6xRxl7giB5NuBmyN9XWJHolR6wSt+Tkkdzd0Hh3dOagKFh7H93yzyKV2bynKWmnqJhIyWe0U1TWQxAMdWruIrwdFioBPbv+3uyAy7PCcSB04TOxFYBrYIMGVp9nny4edX7DoNL8PQVbjtdaM+KFc4IckIu0WOMXX3fJmx4290iXFJo9BJLpKE33oTKMrj4iVHq80oPc7b3TKNDJnP9HytUROzlMY5PuomgfMgEqo9hoiMpJsGirzeqf5+Z2P6ns5oyZN27WQDl78HLculbNfPXkb6Rp94vsgAzhmqrgRPY='
+          password: '{cipher}AQCpyxM+eMq+I6AlnGVFKy+UpLI2l0eAF19hBEbr0D2llMHR+wc1mB7D6IZ2tUNwRnRasZpKKqHOgu1Ii3vTbe8bWZ+xuhNjEjeBlxChsAG51UI7RZ8adjDRFa9JdGf1bYGoE9nN7lpn78GHXv60mzqhDAa9O/JVCHZcI/ty5vXolhsykvVvvuugi9MUnJb+JItpXQMuTbQtoadtPXb38l2bKSKickQZxAznbNjhn48Ejr8+6wuy50/atEJYaSmR6Azxciff3iJUi3Y+/b99bUkiICJah27luMuZaDh29pYcM4yoX2KPdDf9YEDuCTFt9KpnyfCJZ44AR527V44bzo2+P6C1yf3so9ZrafWnqSSHb94NTuWtLuMehr5sgOLKo4U='
+          default-label: main
+          search-paths: configservice
+
